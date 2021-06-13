@@ -1,0 +1,21 @@
+[options]
+  colorscheme = "gruvbox"
+  colorscheme_bg = "dark"
+  enable_guicolors = true
+  autocomplete_method = "ycm"
+  snippet_engine = "neosnippet"
+  
+[[layers]]
+  name = "shell"
+  default_position = "top"
+  default_height = 30
+
+[[layers]]
+  name = "lang#rust"
+  recommended_style = true
+  format_on_save = true
+
+[[layers]]
+  name = "autocomplete"
+  auto-completion-return-key-behavior = "smart"
+  auto-completion-tab-key-behavior = "smart"
